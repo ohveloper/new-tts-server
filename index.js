@@ -11,6 +11,7 @@ const followRouter = require("./Routers/follow");
 const app = express();
 const port = 5000;
 
+// eslint-disable-next-line prettier/prettier
 app.use(morgan(":method :url :status :res[header] :req[header] :response-time ms"));
 
 app.use(
